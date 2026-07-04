@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Founder Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    margin:0;
+    font-family:'Cairo', sans-serif;
+    background:#050814;
+    color:white;
+}
+
+/* TOP HERO */
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+    padding:40px 20px;
+    background: radial-gradient(circle at top,#0f172a,#050814);
+}
+
+/* glow background */
+.glow{
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#2563eb;
+    filter:blur(160px);
+    opacity:0.25;
+    top:-120px;
+}
+
+/* profile image */
+.avatar{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    border:3px solid rgba(255,255,255,0.2);
+    background:url('YOUR_IMAGE.jpg') center/cover;
+    margin:auto;
+    box-shadow:0 0 30px rgba(37,99,235,0.4);
+}
+
+/* name */
+h1{
+    font-size:44px;
+    margin:15px 0 5px;
+    font-weight:800;
+}
+
+.sub{
+    color:#94a3b8;
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+/* button */
+.btn{
+    display:inline-block;
+    padding:14px 26px;
+    border-radius:12px;
+    background: linear-gradient(45deg,#2563eb,#06b6d4);
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    margin-top:20px;
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(37,99,235,0.3);
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+/* sections */
+.section{
+    max-width:1000px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.title{
+    font-size:28px;
+    font-weight:800;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+/* grid */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:16px;
+    backdrop-filter: blur(10px);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    border-color:#3b82f6;
+}
+
+/* timeline */
+.timeline{
+    border-right:2px solid #1e3a8a;
+    padding-right:20px;
+}
+
+.item{
+    margin-bottom:20px;
+}
+
+/* footer */
+footer{
+    text-align:center;
+    padding:40px;
+    color:#64748b;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="glow"></div>
+
+    <div>
+        <div class="avatar"></div>
+
+        <h1>[اسمك]</h1>
+        <p class="sub">Founder • Entrepreneur • Building Digital Products</p>
+
+        <p style="max-width:650px;margin:auto;color:#94a3b8;">
+            أعمل على بناء مشاريع رقمية، تطوير أفكار أعمال، وتحويلها إلى قيمة حقيقية في السوق.
+        </p>
+
+        <a class="btn" href="https://wa.me/XXXXXXXXXXX">Contact Me</a>
+    </div>
+</div>
+
+<div class="section">
+
+    <div class="title">👤 من أنا</div>
+    <div class="card">
+        رائد أعمال في مرحلة بناء المشاريع الرقمية، أركز على تطوير حلول وأفكار قابلة للنمو في عالم التقنية والأعمال.
+    </div>
+
+</div>
+
+<div class="section">
+
+    <div class="title">🚀 ما أعمل عليه</div>
+
+    <div class="grid">
+
+        <div class="card">Startup Ideas Development</div>
+        <div class="card">Digital Business Building</div>
+        <div class="card">Content & Personal Brand</div>
+        <div class="card">Automation & Tech Solutions</div>
+
+    </div>
+
+</div>
+
+<div class="section">
+
+    <div class="title">📈 رؤيتي</div>
+
+    <div class="card">
+        بناء شركة أو عدة مشاريع رقمية تعتمد على التكنولوجيا والذكاء الاصطناعي وتقديم حلول قابلة للتوسع عالمياً.
+    </div>
+
+</div>
+
+<div class="section">
+
+    <div class="title">📌 الرحلة</div>
+
+    <div class="timeline">
+
+        <div class="item card">
+            البداية: بناء الهوية الشخصية والبراند
+        </div>
+
+        <div class="item card">
+            المرحلة الثانية: إطلاق مشاريع رقمية صغيرة
+        </div>
+
+        <div class="item card">
+            المرحلة الثالثة: تأسيس شركة قابلة للنمو
+        </div>
+
+    </div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+
+    <div class="title">🤝 التواصل</div>
+    <p style="color:#94a3b8;">متاح للتعاون والشراكات وفرص العمل</p>
+
+    <a class="btn" href="https://wa.me/XXXXXXXXXXX">Start a Conversation</a>
+
+</div>
+
+<footer>
+    © 2026 Founder Profile — Built for Growth
+</footer>
+
+</body>
+</html>
